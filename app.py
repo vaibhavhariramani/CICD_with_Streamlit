@@ -40,7 +40,7 @@ def fetch_weather():
 
 # Streamlit UI
 def main():
-    st.title('Weather Report')
+    st.title('Weather Report Live')
     st.write('Current Weather Conditions')
 
     # Fetch weather data
