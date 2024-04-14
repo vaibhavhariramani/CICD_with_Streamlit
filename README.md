@@ -10,7 +10,7 @@
 
 
  # Overview
- <img src ="images/1.PNG">
+ <img src ="images/1.png">
 
 This repository demonstrates how to set up a Continuous Integration and Continuous Deployment (CI/CD) pipeline for a Python application built with Streamlit using GitHub Actions. The pipeline automates the process of building a Docker image for the Streamlit app, deploying it to Docker Hub, and then deploying it on Render.com.
 
@@ -36,6 +36,7 @@ The CI/CD pipeline consists of two stages:
 
 * Build Stage: This stage builds the Docker image for the Streamlit app and pushes it to Docker Hub.
 * Deploy Stage: This stage deploys the Docker image from Docker Hub to Render.com using the Render API.
+* <img src ="images/2.png">
 
 ## Setting Up Secrets
 To securely store your Docker Hub access token and Render.com API key, follow these steps:
